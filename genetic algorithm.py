@@ -109,7 +109,6 @@ toolbox.register("mutate", tools.mutFlipBit, indpb=MUTPB) # - Mutação bit flip
 def main():
     print('Execução do Algoritmo Genético...')
 
-    random.seed(time.time())
     NUM_EXECUTIONS = 50
     NGEN = 1000
     POP_SIZE = 20
@@ -118,7 +117,6 @@ def main():
     # Listas para armazenar os resultados das 50 execuções
     iteration_counts = []
     execution_times = []
-    all_best_results = []
 
     optimal_results = []
     optimal_solutions_seen = set()
