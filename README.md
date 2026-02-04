@@ -7,3 +7,5 @@ Esse código possui toda a implementação solicitada, porém, funciona de forma
 * Após ter realizado a opção 1 será possível utilizar as outras opções para vizualizar as métricas de desempenho solicitadas e os 5 melhores resultados obtidos;
 * Se quiser rodar o algoritmo novamente 50x, basta utilizar a opção 1 novamente, e assim sucessivamente;
 * Ao apertar na opção 5 o algoritmo finalizará! 
+
+OBS: Essas instruções são somente para o Stochastic Hill Climbing. No Algoritmo Genético basta rodar o código normalmente e ele vai dar todos os resultados.
